@@ -15,6 +15,10 @@ public class Scrabble {
         result += 4;
       } else if (at == 'k') {
         result += 5;
+      } else if ((at == 'j') || (at == 'x')) {
+        result += 8;
+      } else if ((at == 'q') || (at == 'z')) {
+        result += 10;
       }
     }
     return result;
