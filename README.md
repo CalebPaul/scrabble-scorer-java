@@ -14,10 +14,6 @@ _This program will return a scrabble score depending on the user's input_
 * _Example Input: a_
 * _Example Output: 1_
 
-###### 2. Program returns score for a single letter, regardless of case.
-* _Example Input: A_
-* _Example Output: 1_
-
 ###### 2. Program returns score for multiple letters.
 * _Example Input: an_
 * _Example Output: 2_

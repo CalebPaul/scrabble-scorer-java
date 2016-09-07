@@ -7,6 +7,14 @@ public class Scrabble {
       char at = word.charAt(i);
       if ((at == 'a') || (at == 'e') || (at == 'i') || (at == 'o') || (at == 'u') || (at == 'l') || (at == 'n') || (at == 'r') || (at == 's') || (at == 't')) {
         result += 1;
+      } else if ((at == 'd') || (at == 'g')) {
+        result += 2;
+      } else if ((at == 'b') || (at == 'c') || (at == 'm') || (at == 'p')){
+        result += 3;
+      } else if ((at == 'f') || (at == 'h') || (at == 'v') || (at == 'w') || (at == 'y')){
+        result += 4;
+      } else if (at == 'k') {
+        result += 5;
       }
     }
     return result;
