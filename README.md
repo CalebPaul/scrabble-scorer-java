@@ -35,10 +35,9 @@ _None_
 
 ## Technologies Used
 
-_HTML,
-CSS,
-JS,
-jQuery_
+_Java_
+_Gradle_
+_JUnit_
 
 ### License
 
